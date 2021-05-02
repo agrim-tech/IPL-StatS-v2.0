@@ -1,0 +1,429 @@
+<html>
+
+<head>
+    <title>IPL Stats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <label for="Stat">Stat:</label>
+        <select onchange="changeforachange()" name="Stat" id="Stat">
+            <option value="mostruns">Most Runs</option>
+            <option value="highestscore">Highest Score</option>
+            <option value="mostfifties">Most Fifties</option>
+            <option value="mostcenturies">Most Centuries</option>
+            <option value="highestaverage">Highest Average</option>
+            <option value="mostwickets">Most Wickets</option>
+            <option value="bestbowling">Best Bowling</option>
+            <option value="besteconomy">Best Economy</option>
+            <option value="mostfourwickets">Most 4-Wicket Hauls</option>
+            <option value="mostmaidens">Most Maiden Overs</option>
+        </select>
+        <div id="mostruns">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Runs</th>
+                    <th>Hs</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Virat Kohli</td>
+                    <td class="darkstat">6076</td>
+                    <td class="dark">113</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shikhar Dhawan</td>
+                    <td class="stat">5508</td>
+                    <td>106*</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Suresh Raina</td>
+                    <td class="darkstat">5489</td>
+                    <td class="dark">100*</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>David Warner</td>
+                    <td class="stat">5447</td>
+                    <td>126</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Rohit Sharma</td>
+                    <td class="darkstat">5445</td>
+                    <td class="dark">109*</td>
+                </tr>
+            </table>
+        </div>
+        <div id="mostwickets">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Wickets</th>
+                    <th>BB</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Lasith Malinga</td>
+                    <td class="darkstat">170</td>
+                    <td class="dark">5/13</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Amit Mishra</td>
+                    <td class="stat">166</td>
+                    <td>5/17</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Piyush Chawla</td>
+                    <td class="darkstat">156</td>
+                    <td class="dark">4/17</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Dwayne Bravo</td>
+                    <td class="stat">156</td>
+                    <td>4/22</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Harbhajan Singh</td>
+                    <td class="darkstat">150</td>
+                    <td class="dark">5/18</td>
+                </tr>
+            </table>
+        </div>
+        <div id="highestscore">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Hs</th>
+                    <th>Runs</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Chris Gayle</td>
+                    <td class="darkstat">175*</td>
+                    <td class="dark">4937</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Brendon McCullum</td>
+                    <td class="stat">158*</td>
+                    <td>2880</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">AB De Villiers</td>
+                    <td class="darkstat">133*</td>
+                    <td class="dark">5056</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>KL Rahul</td>
+                    <td class="stat">132*</td>
+                    <td>2978</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Rishabh Pant</td>
+                    <td class="darkstat">128*</td>
+                    <td class="dark">2278</td>
+                </tr>
+            </table>
+        </div>
+        <div id="mostfifties">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Fifties</th>
+                    <th>Runs</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">David Warner</td>
+                    <td class="darkstat">50</td>
+                    <td class="dark">5447</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shikhar Dhawan</td>
+                    <td class="stat">43</td>
+                    <td>5508</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Virat Kohli</td>
+                    <td class="darkstat">40</td>
+                    <td class="dark">6076</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rohit Sharma</td>
+                    <td class="stat">40</td>
+                    <td>5445</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">AB De Villiers</td>
+                    <td class="darkstat">40</td>
+                    <td class="dark">5046</td>
+                </tr>
+            </table>
+        </div>
+        <div id="mostcenturies">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Centuries</th>
+                    <th>Runs</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Chris Gayle</td>
+                    <td class="darkstat">6</td>
+                    <td class="dark">4937</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Virat Kohli</td>
+                    <td class="stat">5</td>
+                    <td>6076</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">David Warner</td>
+                    <td class="darkstat">4</td>
+                    <td class="dark">5447</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Shane Watson</td>
+                    <td class="stat">4</td>
+                    <td>3874</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">AB De Villiers</td>
+                    <td class="darkstat">3</td>
+                    <td class="dark">5046</td>
+                </tr>
+            </table>
+        </div>
+        <div id="highestaverage">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Average</th>
+                    <th>Runs</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">KL Rahul</td>
+                    <td class="darkstat">46.53</td>
+                    <td class="dark">2978</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Adam Voges</td>
+                    <td class="stat">45.25</td>
+                    <td>181</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Hashim Amla</td>
+                    <td class="darkstat">44.38</td>
+                    <td class="dark">577</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Iqbal Abdulla</td>
+                    <td class="stat">44.00</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">David Warner</td>
+                    <td class="darkstat">42.22</td>
+                    <td class="dark">5447</td>
+                </tr>
+            </table>
+        </div>
+        <div id="bestbowling">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>BB</th>
+                    <th>Wickets</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Alzarri Joseph</td>
+                    <td class="darkstat">6/12</td>
+                    <td class="dark">6</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sohail Tanvir</td>
+                    <td class="stat">6/14</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Adam Zampa</td>
+                    <td class="darkstat">6/19</td>
+                    <td class="dark">21</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Anil Kumble</td>
+                    <td class="stat">5/5</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Ishant Sharma</td>
+                    <td class="darkstat">5/12</td>
+                    <td class="dark">72</td>
+                </tr>
+            </table>
+        </div>
+        <div id="besteconomy">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Economy</th>
+                    <th>Wickets</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Rashid Khan</td>
+                    <td class="darkstat">6.24</td>
+                    <td class="dark">84</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anil Kumble</td>
+                    <td class="stat">6.57</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Glenn McGrath</td>
+                    <td class="darkstat">6.61</td>
+                    <td class="dark">12</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Anil Kumble</td>
+                    <td class="stat">6.65</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Muttiah Muralitharan</td>
+                    <td class="darkstat">6.67</td>
+                    <td class="dark">63</td>
+                </tr>
+            </table>
+        </div>
+        <div id="mostfourwickets">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>4w</th>
+                    <th>Wickets</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Sunil Narine</td>
+                    <td class="darkstat">6</td>
+                    <td class="dark">130</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lasith Malinga</td>
+                    <td class="stat">6</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Amit Mishra</td>
+                    <td class="darkstat">4</td>
+                    <td class="dark">166</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Chris Morris</td>
+                    <td class="stat">4</td>
+                    <td>91</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Kagiso Rabada</td>
+                    <td class="darkstat">4</td>
+                    <td class="dark">66</td>
+                </tr>
+            </table>
+        </div>
+        <div id="mostmaidens">
+            <table CELLSPACING=0;>
+                <tr>
+                    <th>Pos</th>
+                    <th>Player</th>
+                    <th>Maiden Overs</th>
+                    <th>Wickets</th>
+                </tr>
+                <tr>
+                    <td class="dark">1</td>
+                    <td class="dark">Praveen Kumar</td>
+                    <td class="darkstat">14</td>
+                    <td class="dark">90</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Irfan Pathan</td>
+                    <td class="stat">10</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td class="dark">3</td>
+                    <td class="dark">Lasith Malinga</td>
+                    <td class="darkstat">8</td>
+                    <td class="dark">170</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bhuvneshwar Kumar</td>
+                    <td class="stat">8</td>
+                    <td>139</td>
+                </tr>
+                <tr>
+                    <td class="dark">5</td>
+                    <td class="dark">Sandeep Sharma</td>
+                    <td class="darkstat">8</td>
+                    <td class="dark">109</td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>

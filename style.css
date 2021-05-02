@@ -1,0 +1,63 @@
+th, td{
+    padding: 15px;
+    text-align: left;
+    font-family: 'Libre Franklin', sans-serif;
+}
+th{
+    background-color: #19398a;
+    color:white ;
+    font-weight: 500;
+}
+.dark{
+    background-color: #e3e3e3;
+}
+.darkstat{
+    background-color:#bfbfbf;
+}
+.stat{
+    background-color: #dbdbdb;
+}
+label{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+select{
+    font-family: 'Libre Franklin', sans-serif;
+    border-bottom:3px solid #19398a;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#mostwickets{
+    display: none;
+}
+#highestscore{
+    display: none;
+}
+#mostfifties{
+    display: none;
+}
+#mostcenturies{
+    display: none;
+}
+#mostruns{
+    display:block;
+}
+#highestaverage{
+    display:none;
+}
+#bestbowling{
+    display: none;
+}
+#besteconomy{
+    display: none;
+}
+#mostfourwickets{
+    display: none;
+}
+#mostmaidens{
+    display: none;
+}
+body{
+background-color: #f0f0f0;
+}
